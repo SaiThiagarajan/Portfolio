@@ -1,0 +1,16 @@
+{
+  "name": "sai-thiagarajan-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Personal portfolio of Sai Thiagarajan A — single self-contained page, no runtime dependencies.",
+  "scripts": {
+    "build": "tsc --noEmit && node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "serve": "npx serve dist"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.6.0"
+  }
+}
